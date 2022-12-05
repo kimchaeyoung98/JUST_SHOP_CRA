@@ -149,6 +149,32 @@ ctrl+shift+R
    ////////////////////////////////////////
 
 
-   7. 
+   7. 웹브라우저에 배포주소로 연다
+      웹페이지 열린다. 배포 끝
+
+   빌드하기
 
    npm run build
+
+
+////////////////////////////////
+원본 소스만 올리기 (배포X)
+
+기존 주소 삭제
+git remote remove origin
+
+삭제 주소 확인
+git remote -v
+
+새 주소 추가
+git remote add origin https://github.com/kimchaeyoung98/JUST_SHOP_CRA.git
+
+git add .
+
+git commit -m '저스트 쇼핑몰 CRA 원본 소스' 
+
+git push origin master
+
+
+새로고침 소스 원본 확인 끝
+버전관리 프로젝트 개발
